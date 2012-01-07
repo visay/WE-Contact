@@ -1,0 +1,18 @@
+#########################
+# global ignore file
+########################
+*~
+*.bak
+*.idea
+*.project
+*.swp
+.buildpath
+.cache
+.project
+.session
+.settings
+.TemporaryItems
+.webprj
+nbproject
+assets/images
+res/raw/staffs.xml
