@@ -15,3 +15,5 @@
 .webprj
 nbproject
 .classpath
+bin
+gen
