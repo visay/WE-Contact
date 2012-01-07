@@ -5,9 +5,53 @@
     android:layout_height="fill_parent"
     >
 
+<Button
+	android:id="@+id/btn_back_to_list"
+	android:text="@string/app_back_to_list"
+	android:layout_gravity="left"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+
 <TextView
 	android:id="@+id/staff_name"
 	android:text="@string/app_staff_name"
+	android:layout_weight="0.5"
+	android:layout_gravity="left"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+
+<TextView
+	android:id="@+id/staff_email"
+	android:text="@string/app_staff_email"
+	android:layout_weight="0.5"
+	android:layout_gravity="left"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+
+<TextView
+	android:id="@+id/staff_position"
+	android:text="@string/app_staff_position"
+	android:layout_weight="0.5"
+	android:layout_gravity="left"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+
+<TextView
+	android:id="@+id/staff_mobile"
+	android:text="@string/app_staff_mobile"
+	android:layout_weight="0.5"
+	android:layout_gravity="left"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+
+<TextView
+	android:id="@+id/staff_skype"
+	android:text="@string/app_staff_skype"
 	android:layout_weight="0.5"
 	android:layout_gravity="left"
 	android:layout_width="wrap_content"

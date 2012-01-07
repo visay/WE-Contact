@@ -2,4 +2,9 @@
 <resources>
     <string name="app_name">WE Contact</string>
     <string name="app_staff_name">Name</string>
+    <string name="app_staff_email">Email</string>
+    <string name="app_staff_position">Position</string>
+    <string name="app_staff_mobile">Mobile</string>
+    <string name="app_staff_skype">Skype</string>
+    <string name="app_back_to_list">Back to list</string>
 </resources>

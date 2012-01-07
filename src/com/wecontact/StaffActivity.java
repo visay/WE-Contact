@@ -11,6 +11,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import java.io.InputStream;
 import java.util.List;
+import android.widget.Button;
 
 public class StaffActivity extends Activity
 {
@@ -84,7 +85,33 @@ public class StaffActivity extends Activity
 		} catch (Exception e) {
 		}
 		
+			// name textview
 		TextView staffName = (TextView) findViewById(R.id.staff_name);
 		staffName.setText(staffName.getText() + ": " + staff.name);
+		
+			// email textview
+		TextView staffEmail = (TextView) findViewById(R.id.staff_email);
+		staffEmail.setText(staffEmail.getText() + ": " + staff.email);
+		
+			// position textview
+		TextView staffPosition = (TextView) findViewById(R.id.staff_position);
+		staffPosition.setText(staffPosition.getText() + ": " + staff.position);
+		
+			// mobile textview
+		TextView staffMobile = (TextView) findViewById(R.id.staff_mobile);
+		staffMobile.setText(staffMobile.getText() + ": " + staff.mobile);
+		
+			// skype textview
+		TextView staffSkype = (TextView) findViewById(R.id.staff_skype);
+		staffSkype.setText(staffSkype.getText() + ": " + staff.skype);
+		
+			// back to list button
+		Button backToList = (Button) findViewById(R.id.btn_back_to_list);
+		backToList.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View v) {
+				renderStaffList();
+			}
+		});
 	}
 }
